@@ -1,0 +1,102 @@
+*{
+    color: rgb(201, 196, 196);
+}
+body{
+    background-image: url(Icons/darkblue.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    text-align: center;
+    padding-left: 20px;
+    float: left;
+}
+.header{
+    margin-right: 30px;
+    height: 14vh;
+    text-align: center;
+    word-spacing: 3vw;
+}
+li{
+    display: inline-flex;
+}
+a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+    font-size: 20px;
+    transition: 1s;
+}
+a:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: red;
+    font-size: 160%;
+}
+.about-me{
+    padding-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h4{
+    font-size: 300%;
+}
+p{
+    font-size: 200%;
+}
+.flex-container{
+    display: flex;
+}
+.flex-child{
+    flex: 1;
+    margin-left: 20px;
+}
+.photo > img{
+    border-radius: 400vw;
+    opacity: 0.6;
+}
+.skill{
+    text-align: center;
+    font-size: larger;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 50px;
+    max-width: 160px;
+    border-color: rgb(53, 53, 145);
+    background-color: rgb(53, 53, 119);
+}
+
+.sl{
+    text-decoration: underline;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg, #231557 10%, #44107a 29%, #ff1361 67%, #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-emphasis-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+}
+
+@keyframes textclip {
+    to{
+        background-position: 200% center;
+    }
+}
+
+footer h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem
+}
+footer{
+    text-align: center;
+    font-size: small;
+}
+.contact{
+    word-spacing: 34px;
+}
